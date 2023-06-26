@@ -4,4 +4,4 @@ baseURL: https://sebou-osuny-dev-climbing.netlify.app
 
 ## LANGUAGE
 defaultContentLanguage: fr
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
