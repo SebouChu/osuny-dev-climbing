@@ -6,3 +6,17 @@ fr:
   languageCode: fr
   languageName: French
   permalinks:
+    categories: /actualites/:slug/
+    posts: /actualites/:year-:month-:day-:slug/
+    persons: /equipe/:slug/
+    authors: /equipe/:slug/actualites/
+en:
+  title: Site d'escalade
+  contentDir: content/en
+  languageCode: en
+  languageName: English
+  permalinks:
+    categories: /actualites/:slug/
+    posts: /actualites/:year-:month-:day-:slug/
+    persons: /equipe/:slug/
+    authors: /equipe/:slug/actualites/
