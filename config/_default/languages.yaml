@@ -20,3 +20,13 @@ en:
     posts: /actualites/:year-:month-:day-:slug/
     persons: /equipe/:slug/
     authors: /equipe/:slug/actualites/
+it:
+  title: Site d'escalade
+  contentDir: content/it
+  languageCode: it
+  languageName: Italien 🤌
+  permalinks:
+    categories: /actualites/:slug/
+    posts: /actualites/:year-:month-:day-:slug/
+    persons: /equipe/:slug/
+    authors: /equipe/:slug/actualites/
