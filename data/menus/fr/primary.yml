@@ -2,11 +2,11 @@
 title: Menu principal
 items:
 - title: Actualités
-  target: "/fr/actualites/"
+  target: "/actualites/"
   kind: page
   children: []
 - title: Équipe
-  target: "/fr/equipe/"
+  target: "/equipe/"
   kind: page
   children: []
 
