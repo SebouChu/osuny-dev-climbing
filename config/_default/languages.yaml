@@ -30,3 +30,13 @@ it:
     posts: /actualites/:year-:month-:day-:slug/
     persons: /equipe/:slug/
     authors: /equipe/:slug/actualites/
+es:
+  title: Site d'escalade
+  contentDir: content/es
+  languageCode: es
+  languageName: Español
+  permalinks:
+    categories: /actualites/:slug/
+    posts: /actualites/:year-:month-:day-:slug/
+    persons: /equipe/:slug/
+    authors: /equipe/:slug/actualites/
