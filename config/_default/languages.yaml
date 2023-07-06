@@ -40,3 +40,13 @@ es:
     posts: /actualites/:year-:month-:day-:slug/
     persons: /equipe/:slug/
     authors: /equipe/:slug/actualites/
+de:
+  title: Site d'escalade
+  contentDir: content/de
+  languageCode: de
+  languageName: Allemand
+  permalinks:
+    categories: /actualites/:slug/
+    posts: /actualites/:year-:month-:day-:slug/
+    persons: /equipe/:slug/
+    authors: /equipe/:slug/actualites/
