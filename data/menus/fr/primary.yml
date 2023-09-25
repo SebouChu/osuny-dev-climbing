@@ -9,4 +9,8 @@ items:
   target: "/equipe/"
   kind: page
   children: []
+- title: dernière actu
+  target: "/actualites/2023-07-06-seance-du-6-juillet-2023/"
+  kind: post
+  children: []
 
