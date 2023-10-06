@@ -1,6 +1,12 @@
 ---
 title: "Séance du 6 juillet 2023"
 date: "2023-07-06T16:43:32+02:00"
+breadcrumbs:
+  - title: "Site d'escalade"
+    path: "/"
+  - title: "Actualités"
+    path: "/actualites/"
+  - title: "Séance du 6 juillet 2023"
 url: "/actualites/2023-07-06-seance-du-6-juillet-2023/"
 slug: "seance-du-6-juillet-2023"
 
@@ -214,24 +220,19 @@ contents:
       Quelques pages
     position: 0
     data:
-      page: /equipe/
+      page: 
+        path: "/equipe/"
+        slug: "equipe"
+        file: "content/fr/persons/_index.html"
       show_main_description: true
       show_descriptions: false
       show_images: true
       layout: grid
       pages:
-        - page: "/equipe/equipe-editoriale/"
-          slug: "/equipe/equipe-editoriale/"
-      elements:
-        - title: >-
-            Équipe éditoriale
-          summary: >-
-            
+        - path: "/equipe/equipe-editoriale/"
           slug: "equipe-editoriale"
-          path: "/equipe/equipe-editoriale/"
-          url: "/equipe/equipe-editoriale/"
-          bodyclass: >-
-            
+          file: "content/fr/authors/_index.html"
+          external: false
 
 
   - kind: block
@@ -245,59 +246,10 @@ contents:
       posts:
         - "2023/2023-09-25-seance-du-17-mars-2023"
         - "2023/2023-03-16-seance-du-16-mars-2023"
-      elements:
-        - title: >-
-            Séance folle du 17 mars 2023
-          summary: >-
-            
-          slug: "seance-du-17-mars-2023"
-          path: "/2023/09/25/seance-du-17-mars-2023"
-          url: "/actualites/2023-09-25-seance-du-17-mars-2023/"
-          image:
-            id: "1c5279e3-8f08-40d8-949a-eea3aecb3e94"
-            alt: >-
-              
-            credit: >-
-              <p>Photo by <a href="https://unsplash.com/@__isabella__?utm_source=osuny&amp;utm_medium=referral"> Isabella Smith</a> on <a href="https://unsplash.com/?utm_source=osuny&amp;utm_medium=referral">Unsplash</a></p>
-          categories:
-            - title: >-
-                Séance de grimpouiette
-              slug: "seance-de-grimpouiette"
-              path: "/seance-de-grimpouiette/"
-              url: "/actualites/seance-de-grimpouiette/"
-          author:
-            name: >-  
-              Sébastien Gaya
-            slug: "sebastien-gaya"
-            url: "/equipe/sebastien-gaya/"
-        - title: >-
-            Séance du 16 mars 2023
-          summary: >-
-            Une séance productive !
-          slug: "seance-du-16-mars-2023"
-          path: "/2023/03/16/seance-du-16-mars-2023"
-          url: "/actualites/2023-03-16-seance-du-16-mars-2023/"
-          image:
-            id: "1ae48574-4ad8-45c5-bb56-4287f2c211ad"
-            alt: >-
-              
-            credit: >-
-              
-          categories:
-            - title: >-
-                Séance de grimpouiette
-              slug: "seance-de-grimpouiette"
-              path: "/seance-de-grimpouiette/"
-              url: "/actualites/seance-de-grimpouiette/"
-          author:
-            name: >-  
-              Sébastien Gaya
-            slug: "sebastien-gaya"
-            url: "/equipe/sebastien-gaya/"
 
 
   - kind: block
-    template: organization_chart
+    template: persons
     title: >-
       Quelques personnes
     position: 2
@@ -309,32 +261,19 @@ contents:
       with_photo: false
       persons:
         - slug: "sebastien-gaya"
+          external: false
           role: >-
             Londonien
 
         - slug: "pierre-andre-boissinot"
+          external: false
           role: >-
             Parisien
 
-      elements:
-        - title: >-
-            Sébastien Gaya
-          summary: >-
-            Londonien
-          kind: "osuny"
-          slug: "sebastien-gaya"
-          url: "/equipe/sebastien-gaya/"
-        - title: >-
-            Pierre-André Boissinot
-          summary: >-
-            Parisien
-          kind: "osuny"
-          slug: "pierre-andre-boissinot"
-          url: "/equipe/pierre-andre-boissinot/"
 
 
   - kind: block
-    template: partners
+    template: organizations
     title: >-
       Quelques orgas
     position: 3
@@ -344,37 +283,19 @@ contents:
         
 
       with_link: false
-      partners:
+      organizations:
         - slug: "arkose"
+          external: false
         - slug: "noesya"
+          external: false
         - name: >-
             Apple
 
           url: >-
             https://www.apple.com/fr/
 
+          external: true
           logo: ""
-      elements:
-        - title: >-
-            
-          kind: "osuny"
-          slug: "arkose"
-          url: "/organisations/arkose/"
-          logo:
-            light_background: 
-              id: "9644faac-90a8-4bab-98b4-ffde3e4246a8"
-        - title: >-
-            
-          kind: "osuny"
-          slug: "noesya"
-          url: "/organisations/noesya/"
-          logo:
-            light_background: 
-              id: "28cdba22-b37a-48d4-a610-6e7379270384"
-        - title: >-
-            Apple
-          kind: "external"
-          url: "https://www.apple.com/fr/"
 
 
 
