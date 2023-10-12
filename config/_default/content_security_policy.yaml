@@ -12,3 +12,5 @@ allowed_domains:
   - "vimeo.com"
   - "player.vimeo.com"
   - "vumbnail.com"
+  - "www.instagram.com"
+  - "www.w3.org"
