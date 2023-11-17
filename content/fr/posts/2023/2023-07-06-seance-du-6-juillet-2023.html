@@ -6,7 +6,8 @@ breadcrumbs:
     path: "/"
   - title: "Actualités"
     path: "/actualites/"
-  - title: "Séance du 6 juillet 2023"
+  - title: >-
+      Séance du 6 juillet 2023
 url: "/actualites/2023-07-06-seance-du-6-juillet-2023/"
 slug: "seance-du-6-juillet-2023"
 
@@ -19,6 +20,7 @@ design:
 
 authors:
   - "sebastien-gaya"
+
 translation_key: communication-website-post-b4f08928-5296-4a81-be94-b028608876df
 
 
@@ -42,6 +44,8 @@ contents:
     title: >-
       Chapitre sans titre 1
     position: 0
+    ranks:
+      self: 2
     data:
       layout: no_background
       text: >-
@@ -64,6 +68,8 @@ contents:
     title: >-
       Chapitre sans titre 2
     position: 1
+    ranks:
+      self: 2
     data:
       layout: no_background
       text: >-
@@ -85,12 +91,14 @@ contents:
     title: >-
       Titre 1
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       Chapitre titre 1
     position: 0
+    ranks:
+      self: 3
     data:
       layout: no_background
       text: >-
@@ -113,6 +121,8 @@ contents:
     title: >-
       Chapitre titre 1 bis
     position: 1
+    ranks:
+      self: 3
     data:
       layout: no_background
       text: >-
@@ -135,12 +145,14 @@ contents:
     title: >-
       Titre 2
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       Chap titre 2
     position: 0
+    ranks:
+      self: 3
     data:
       layout: no_background
       text: >-
@@ -163,12 +175,14 @@ contents:
     title: >-
       Titre 3
     position: 2
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       Chap titre 3
     position: 0
+    ranks:
+      self: 3
     data:
       layout: no_background
       text: >-
@@ -191,6 +205,8 @@ contents:
     title: >-
       Chap titre 3 bis
     position: 1
+    ranks:
+      self: 3
     data:
       layout: no_background
       text: >-
@@ -213,12 +229,15 @@ contents:
     title: >-
       Titre 4
     position: 3
-    level: 2
+    rank: 2
   - kind: block
     template: pages
     title: >-
       Quelques pages
     position: 0
+    ranks:
+      self: 3
+      children: 4
     data:
       page: 
         path: "/equipe/"
@@ -240,6 +259,9 @@ contents:
     title: >-
       Quelques actus
     position: 1
+    ranks:
+      self: 3
+      children: 4
     data:
       category: "/seance-de-grimpouiette/"
       layout: grid
@@ -253,6 +275,9 @@ contents:
     title: >-
       Quelques personnes
     position: 2
+    ranks:
+      self: 3
+      children: 4
     data:
       description: >-
         
@@ -277,6 +302,9 @@ contents:
     title: >-
       Quelques orgas
     position: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       layout: grid
       description: >-
