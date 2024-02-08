@@ -5,5 +5,5 @@ width: 1000
 height: 1000
 ratio: 1.0
 url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6IjIwM2M5MmJhLTI2YzAtNDg5OC1iN2E0LTk0OWJmNmFmODNlYiIsInB1ciI6ImJsb2JfaWQifX0=--f14bb2511a326cb36a5a1b51ab0113e8b6cc7c69/CITT_Concept_Photo_5.jpg
-direct_url: https://osuny-dev.s3.fr-par.scw.cloud/9dvps4nb61cyoifjowsmpl736b4v?response-content-disposition=inline%3B+filename%3D%22CITT_Concept_Photo_5.jpg%22%3B+filename*%3DUTF-8%27%27CITT_Concept_Photo_5.jpg&response-content-type=image%2Fjpeg
+direct_url: https://osuny-dev.s3.fr-par.scw.cloud/9dvps4nb61cyoifjowsmpl736b4v
 

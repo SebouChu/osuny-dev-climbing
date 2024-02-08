@@ -5,5 +5,5 @@ width: 500
 height: 500
 ratio: 1.0
 url: http://demo.osuny:3000/media/eyJfcmFpbHMiOnsiZGF0YSI6Ijk2NDRmYWFjLTkwYTgtNGJhYi05OGI0LWZmZGUzZTQyNDZhOCIsInB1ciI6ImJsb2JfaWQifX0=--497d053975bf30faea177fa330982a4285bc58aa/arkose-picto.png
-direct_url: https://osuny-dev.s3.fr-par.scw.cloud/s77x6di5ed711uiik0zt0dyzeycd?response-content-disposition=inline%3B+filename%3D%22arkose-picto.png%22%3B+filename*%3DUTF-8%27%27arkose-picto.png&response-content-type=image%2Fpng
+direct_url: https://osuny-dev.s3.fr-par.scw.cloud/s77x6di5ed711uiik0zt0dyzeycd
 
